@@ -33,6 +33,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <16 28>;
         };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
@@ -61,12 +66,12 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R               &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F               &kp G        &msc SCRL_UP              &kp F7         &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
-&kp Z      &kp X         &kp C         &kp V               &kp B        &msc SCRL_DOWN            &kp F10        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A      &kp S         &kp D         &kp F               &kp G        &trans                    &kp F7         &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
+&kp Z      &kp X         &kp C         &kp V               &kp B        &kp ESC                   &kp F10        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_WIN LANG2  &lt 1 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE  &lt 2 ENTER                             &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         layer1 {
@@ -101,7 +106,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                     &kp RG(RS(RC(NUMBER_4)))  &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                 &kp RG(R)                 &mkp MB1            &mkp MB2             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                 &kp RG(R)                 &mkp MB1            &mkp MB2             &trans  &kp RG(W)
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RG(W)              &kp RG(C)                 &kp RG(V)           &kp RA(RG(V))        &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                                       &trans
             >;
