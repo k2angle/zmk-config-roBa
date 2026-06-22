@@ -88,10 +88,10 @@
 
         layer1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5                                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
-&kp EXCL      &kp AT        &kp HASH      &kp DOLLAR            &kp PERCENT            &trans         &trans  &kp CARET     &kp AMPS      &kp ASTRK     &kp SEMICOLON  &kp COLON
-&kp CARET     &trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(R)      &trans  &trans        &trans        &trans        &kp TILDE      &kp GRAVE
-&trans        &trans        &trans        &trans                &trans                 &trans         &trans  &trans                                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5                               &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0
+&kp EXCL      &kp AT        &kp HASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans  &kp GRAVE     &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SEMICOLON     &kp COLON
+&kp DLLR      &kp PERCENT   &kp AMPS      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &kp TILDE     &kp LT          &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&trans        &trans        &trans        &trans                &trans                 &trans      &trans  &trans                                                            &trans
             >;
         };
 
