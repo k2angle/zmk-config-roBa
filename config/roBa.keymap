@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R             &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F             &kp G        &trans                    &kp F7         &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
-&kp Z      &kp X         &kp C         &kp V             &kp B        &mkp MB1                  &kp F10        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_GUI TAB  &lt 1 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE  &lt 2 ENTER                             &kp DELETE
+&kp Q      &kp W         &kp E         &kp R     &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &lt 5 F   &kp G        &trans                    &kp F7         &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
+&kp Z      &kp X         &kp C         &kp V     &kp B        &mkp MB1                  &kp F10        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &lt 1 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE  &lt 2 ENTER                             &kp DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -88,10 +88,10 @@
 
         layer1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp LEFT_BRACE        &kp RIGHT_BRACE                               &trans  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT
-&kp DOLLAR       &kp PRCNT    &kp AMPS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans  &trans  &trans  &trans  &kp SEMICOLON     &kp COLON
-&kp CARET        &trans       &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(R)      &trans  &trans  &trans  &trans  &kp TILDE         &kp GRAVE
-&trans           &trans       &trans    &trans                &trans                 &trans         &trans  &trans                                    &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5                                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
+&kp DOLLAR    &kp PRCNT     &kp AMPS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans  &trans        &trans        &trans        &kp SEMICOLON  &kp COLON
+&kp CARET     &trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LG(R)      &trans  &trans        &trans        &trans        &kp TILDE      &kp GRAVE
+&trans        &trans        &trans        &trans                &trans                 &trans         &trans  &trans                                                   &trans
             >;
         };
 
@@ -119,7 +119,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                     &kp RG(RS(RC(NUMBER_4)))  &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans                 &kp RG(R)                 &mkp MB1            &mkp MB2             &trans  &kp RG(W)
-&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(W)              &kp RG(C)                 &kp RG(V)           &kp RA(RG(V))        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(W)              &kp RG(C)                 &kp RG(V)           &kp RA(RG(V))        &trans  &kp RS(RC(RG(NUMBER_4)))
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                                       &trans
             >;
         };
