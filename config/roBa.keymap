@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R     &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &lt 5 F   &kp G        &trans                    &kp F7                    &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
-&kp Z      &kp X         &kp C         &kp V     &kp B        &kp ESC                   &kp RS(RC(RG(NUMBER_4)))  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp MB1  &lt 1 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE             &lt 2 ENTER                             &kp DELETE
+&kp Q      &kp W         &kp E         &kp R     &kp T                                                     &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &lt 5 F   &kp G        &trans                    &kp C_VOLUME_UP    &kp H        &kp J  &lt 5 K    &lt 4 L  &kp MINUS
+&kp Z      &kp X         &kp C         &kp V     &kp B        &kp ESC                   &kp C_VOLUME_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp MB1  &lt 1 SPACE  &mt LEFT_SHIFT LANG1      &kp BACKSPACE      &lt 2 ENTER                             &kp DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -97,10 +97,10 @@
 
         layer2 {
             bindings = <
-&kp BACKSPACE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                               &kp RS(P)           &kp RS(N)            &kp UP_ARROW    &trans             &kp DEL
-&kp SLASH      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &trans            &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp K_MUTE
-&kp KP_N0      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS   &kp LG(R)         &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans         &trans           &trans           &kp KP_ASTERISK  &kp KP_DIVIDE  &kp KP_EQUAL      &trans  &trans                                                                      &kp PIPE
+&kp BACKSPACE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                                   &kp RS(P)  &kp RS(N)           &kp UP_ARROW         &trans             &kp DEL
+&kp SLASH      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &trans            &trans      &kp F7     &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE
+&kp KP_N0      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS   &kp LG(R)         &trans      &kp F10    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans         &trans           &trans           &kp KP_ASTERISK  &kp KP_DIVIDE  &kp KP_EQUAL      &kp DELETE  &trans                                                                 &kp PIPE
             >;
         };
 
