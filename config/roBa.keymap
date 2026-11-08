@@ -41,6 +41,11 @@
             bindings = <&kp LANG2>;
             key-positions = <13 12>;
         };
+
+        layer6 {
+            bindings = <&lt 6 ESCAPE>;
+            key-positions = <34 35 36>;
+        };
     };
 
     macros {
